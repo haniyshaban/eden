@@ -56,10 +56,11 @@ export const Footer = () => {
             {/* Brand Section */}
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-6">
-                <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
-                  <span className="text-primary-foreground font-bold text-xl">E</span>
+                    {/* New Logo with an image */}
+                <div className="flex items-center space-x-2">
+                  <img src={myNewLogo} alt="Your Logo" className="h-8 w-auto" />
+                  <span className="text-xl font-bold gradient-text">Eden Labs</span>
                 </div>
-                <span className="text-2xl font-bold gradient-text">Eden Labs</span>
               </div>
               
               <p className="text-foreground-muted mb-6 leading-relaxed">
@@ -128,7 +129,7 @@ export const Footer = () => {
         {/* Bottom Footer */}
         <div className="py-8 border-t border-glass-border flex flex-col md:flex-row items-center justify-between">
           <div className="text-foreground-muted text-sm mb-4 md:mb-0">
-            © 2024 Eden Labs. All rights reserved.
+            © 2025 Eden Labs. All rights reserved.
           </div>
           
           <div className="flex items-center gap-6">

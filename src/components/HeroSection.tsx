@@ -51,13 +51,7 @@ export const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center px-6 max-w-6xl mx-auto">
-        {/* Animated Badge */}
-        <div className="inline-flex items-center gap-2 glass-nav mb-8 animate-fade-in-up">
-          <Sparkles className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium text-foreground-muted">
-            Pioneering the Future of Technology
-          </span>
-        </div>
+        
 
         {/* Main Heading with Morphing Text */}
         <h1 className="text-6xl md:text-8xl lg:text-9xl font-black mb-6 animate-fade-in-up animate-delay-200">

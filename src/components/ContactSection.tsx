@@ -69,7 +69,7 @@ export const ContactSection = () => {
                     <h4 className="font-semibold mb-1">Call Us</h4>
                     <p className="text-foreground-muted text-sm mb-2">Speak with our team</p>
                     <a href="tel:+1234567890" className="text-primary hover:text-primary-glow transition-colors">
-                      +1 (234) 567-890
+                      +91 80739 53644
                     </a>
                   </div>
                 </div>
@@ -79,11 +79,11 @@ export const ContactSection = () => {
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
-                    <h4 className="font-semibold mb-1">Visit Us</h4>
+                    <h4 className="font-semibold mb-1">Location</h4>
                     <p className="text-foreground-muted text-sm mb-2">Our headquarters</p>
                     <p className="text-primary">
-                      San Francisco, CA<br />
-                      United States
+                      Bangalore, Karnataka<br />
+                      India
                     </p>
                   </div>
                 </div>
