@@ -55,13 +55,11 @@ export const Footer = () => {
           <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
             {/* Brand Section */}
             <div className="lg:col-span-2">
-              <div className="flex items-center space-x-2 mb-6">
-                    {/* New Logo with an image */}
-                <div className="flex items-center space-x-2">
-                  <img src={myNewLogo} alt="Your Logo" className="h-8 w-auto" />
-                  <span className="text-xl font-bold gradient-text">Eden Labs</span>
-                </div>
-              </div>
+              {/* New Logo with an image */}
+            <div className="flex items-center space-x-2">
+              <img src={myNewLogo} alt="Eden Labs Logo" className="h-12 w-auto" />
+              <span className="text-xl font-bold gradient-text">Eden Labs</span>
+            </div>
               
               <p className="text-foreground-muted mb-6 leading-relaxed">
                 Pioneering the future of technology with AI-powered solutions that transform businesses and drive innovation across industries.

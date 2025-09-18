@@ -21,7 +21,6 @@ export const Header = () => {
     { name: "About", href: "#about" },
     { name: "Process", href: "#process" },
     { name: "Contact", href: "#contact" },
-    { name: "Resources", href: "/resources" },
   ];
 
   return (
@@ -37,7 +36,7 @@ export const Header = () => {
           <div className="flex items-center justify-between">
             {/* New Logo with an image */}
             <div className="flex items-center space-x-2">
-              <img src={myNewLogo} alt="Your Logo" className="h-12 w-auto" />
+              <img src={myNewLogo} alt="Eden Labs Logo" className="h-12 w-auto" />
               <span className="text-xl font-bold gradient-text">Eden Labs</span>
             </div>
 
